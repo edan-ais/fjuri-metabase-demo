@@ -2,3 +2,6 @@ FROM metabase/metabase:latest
 
 ENV MB_DB_TYPE=postgres
 ENV JAVA_OPTS=-Xmx2g
+ENV MB_JETTY_PORT=10000
+
+EXPOSE 10000
