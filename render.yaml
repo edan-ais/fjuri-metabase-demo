@@ -7,3 +7,5 @@ services:
     envVars:
       - key: MB_DB_TYPE
         value: postgres
+      - key: PORT
+        value: 10000
