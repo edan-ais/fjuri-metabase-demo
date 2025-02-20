@@ -8,4 +8,8 @@ services:
       - key: MB_DB_TYPE
         value: postgres
       - key: PORT
-        value: 10000
+        value: "10000"
+    port: 10000
+    scaling:
+      minInstances: 1
+      maxInstances: 1
