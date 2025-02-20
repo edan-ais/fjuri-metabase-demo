@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: metabase
+    env: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: MB_DB_TYPE
+        value: postgres
